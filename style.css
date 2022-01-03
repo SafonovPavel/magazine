@@ -365,3 +365,72 @@ body {
   height: 49px;
   border-radius: 0px 20px 20px 0px;
 }
+
+.registration__title {
+  height: 148px;
+  background-color: #f8f3f4;
+}
+
+.registration__title-heading {
+  font-size: 24px;
+  line-height: 29px;
+  color: #f16d7f;
+  text-transform: uppercase;
+  padding-top: 59px;
+}
+
+.registration__page {
+  height: 675px;
+}
+
+.products__item-btn:active,
+.products__item-btn:hover {
+  border: 1px solid #000000;
+}
+
+.footer__top-form-submit:active,
+.footer__top-form-submit:hover {
+  border: 1px solid #000000;
+}
+
+.registration__page-form-title {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+  padding-top: 64px;
+  padding-bottom: 20px;
+}
+
+.registration__page-loyalty-heading {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  padding-top: 64px;
+  padding-bottom: 22px;
+  text-transform: uppercase;
+}
+
+.registration__page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.registration__page-loyalty-text {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  max-width: 652px;
+  padding-bottom: 21px;
+}
+
+.registration__page-loyalty-list {
+  list-style-image: url(../lesson2/img/galka.svg);
+  list-style-position: inside;
+}
+
+.registration__page-loyalty-list-item {
+  margin-bottom: 16px;
+}
